@@ -7,7 +7,7 @@ including a jQuery ajax request .
     $ go run webserver.go
     
 ... and point a browser at http://localhost:8097/home
-which returns an HTML webpage (home.html).
+which returns an HTML webpage (home.html)..
 
 That webpage makes a 2nd GET request to http://localhost:8097/item/foo
 which return a JSON response {"name":"foo","what":"item"}, 
